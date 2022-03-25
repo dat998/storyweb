@@ -1,0 +1,74 @@
+#colorlib-page {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.colorlib-nav-toggle {
+    position: fixed;
+    left: -12px;
+    top: 0;
+    z-index: 9999;
+    cursor: pointer;
+    opacity: 1;
+    visibility: hidden;
+    padding: 20px;
+    transition: all .5s ease;
+}
+
+#colorlib-aside {
+    padding-top: 3em;
+    padding-bottom: 40px;
+    padding-left: 3em;
+    padding-right: 3em;
+    width: 25%;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    overflow-y: scroll;
+    z-index: 1001;
+    background: rgba(0, 0, 0, .04);
+    transition: all .5s ease;
+}
+
+.hero-wrap .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .7;
+    background: #fff;
+    z-index: 0;
+}
+
+.hero-wrap .text {
+    z-index: 1;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.hero-wrap .text .img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.hero-wrap .text .subheading {
+    font-size: 24px;
+    color: #bfbfbf;
+    font-weight: 300;
+}
+
+.hero-wrap .text h1 {
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+.mb-4,
+.my-4 {
+    margin-bottom: 1.5rem!important;
+}

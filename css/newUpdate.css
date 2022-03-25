@@ -1,0 +1,83 @@
+.truyen-main {
+    background-image: none;
+    margin-top: 80px;
+}
+
+.truyen-main h4 {
+    text-transform: uppercase;
+    padding: 15px 0;
+    color: #508e60;
+    position: relative;
+}
+
+.truyen-main h4::after {
+    top: 56px;
+    position: absolute;
+    content: ' ';
+    height: 2px;
+    width: 130px;
+    background-color: #6b9876;
+    left: 0px;
+}
+
+.truyen-main .block-content {
+    margin: 30px 0;
+}
+
+.truyen-main .block-content a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #3c3c3c;
+}
+
+.truyen-main a:hover {
+    color: #508e60;
+}
+
+.truyen-main .list-group-item-table {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.truyen-main .list-group-item-table .content1 {
+    padding: 10px 0 40px 40px;
+    position: relative;
+    border-bottom: 1px solid #d4ead2;
+}
+
+.truyen-main .list-group-item-table .content1 .info {
+    margin: 5px;
+}
+
+.truyen-main .list-group-item-table .content1 .info .author {
+    width: 40%;
+}
+
+.info .author {
+    width: 100%;
+}
+
+.truyen-main .list-group-item-table .content1 .thumb {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    left: 0;
+    top: 5px;
+    bottom: 0;
+}
+
+.truyen-main .list-group-item-table .content1 .info .title {
+    width: 50%;
+    font-size: 16px;
+}
+
+.truyen-main .list-group-item-table .content1 .info>* {
+    display: block;
+    padding: 0 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 25px;
+    float: left;
+}

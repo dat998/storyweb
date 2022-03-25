@@ -1,0 +1,107 @@
+    .page-wraper {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .truyen-main {
+        margin: 100px 0;
+        background: none;
+    }
+    
+    .truyen-main .truyen-title a {
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #3a904f;
+    }
+    
+    .truyen-main .title-chap {
+        text-align: center;
+        color: #6d6d6d;
+        font-weight: normal;
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    
+    .truyen-main p {
+        font-size: 18px;
+    }
+    
+    .truyen-main .chapter-nav {
+        text-align: center;
+        margin: 20px 0;
+    }
+    
+    .truyen-main .chapter-nav .btn-group a {
+        margin: 0 5px;
+    }
+    
+    .truyen-main .btn-group .glyphicon-chevron-left::before {
+        content: '\f104';
+        font-family: "Font Awesome 5 Free";
+        padding-right: 10px;
+        font-weight: 900;
+    }
+    
+    .truyen-main .btn-group .glyphicon-list-alt:before {
+        content: '\f022';
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+    }
+    
+    .truyen-main .glyphicon-chevron-right::before {
+        content: '\f105';
+        font-family: "Font Awesome 5 Free";
+        padding-left: 10px;
+        font-weight: 900;
+    }
+    
+    .truyen-main .content p {
+        font-size: 20px;
+        color: #333;
+    }
+    /*     
+    .truyen-main .wraper {
+        display: flex;
+        justify-content: center;
+        margin: 30px 0;
+    } */
+    
+    .truyen-main .comment .form-group {
+        display: flex;
+        justify-content: center;
+        margin: 30px 0;
+    }
+    
+    .truyen-main .comment-content {
+        display: flex;
+    }
+    
+    .truyen-main .cmt {
+        margin: 0 0 0 50px;
+        width: -webkit-fill-available;
+        padding: 5px;
+        border-radius: 5px;
+        margin-left: 35px;
+        box-shadow: 0px 0px 14px 0px grey;
+    }
+    
+    .truyen-main .cmt p {
+        font-size: 14px;
+    }
+    
+    .truyen-main #delete a {
+        margin: 5px 0;
+        text-decoration: none;
+        color: #3a904f;
+    }
+    
+    .truyen-main .cmte .mt-5 h5 {
+        color: #3a904f;
+    }
+    
+    .truyen-main .cmte .mt-5 .btn-primary {
+        color: #fff;
+        background-color: #6c9e77;
+        border-color: #6c9e77;
+    }

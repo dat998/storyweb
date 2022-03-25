@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.truyen-header::after {
+    background: none;
+}
+
+.truyen-main h4 {
+    text-transform: uppercase;
+    color: #6b9876;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    position: relative;
+    margin-top: 100px;
+
+}
+
+.truyen-main h4.title::after {
+    position: absolute;
+    content: ' ';
+    height: 1px;
+    width: 10%;
+    background-color: #6b9876;
+    left: 0px;
+    top: 40px;
+}
+
+.truyen-main label {
+    color: #6b9876;
+}
+
+.truyen-main .add-chap {
+    margin: 20px 20px 50px;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    background: #6caf8a;
+    color: #fff;
+}

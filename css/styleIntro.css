@@ -1,0 +1,197 @@
+.page-wraper {
+    font-family: 'Roboto', sans-serif;
+}
+
+.truyen-main {
+    margin-top: 100px;
+}
+
+.truyen-main h4 {
+    text-transform: uppercase;
+    color: #6b9876;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    position: relative;
+}
+
+.truyen-main h5.title {
+    text-transform: uppercase;
+    color: #6b9876;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+}
+
+.truyen-main h4.title::after {
+    position: absolute;
+    content: ' ';
+    height: 1px;
+    width: 100%;
+    background-color: #6b9876;
+    left: 0px;
+    top: 40px;
+}
+
+.truyen-main h4.items::after {
+    position: absolute;
+    content: ' ';
+    height: 1px;
+    width: 130px;
+    background-color: #6b9876;
+    left: 0px;
+    top: 40px;
+}
+
+.truyen-main .block-1 .rate {
+    margin: 0 20px 20px;
+}
+
+.truyen-main .block-1 .col-md-4 .read {
+    margin: 20px;
+}
+
+.truyen-main .block-1 .col-md-4 .read button {
+    background-color: #6b9876;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    padding: 8px 8px;
+    color: #fff;
+}
+
+.truyen-main .block-1 .col-md-4 .read a {
+    text-decoration: none;
+}
+
+.truyen-main .block-1 .col-md-8 h5 {
+    color: #6b9876;
+    margin: 17px 0;
+    text-align: center;
+}
+
+.truyen-main .block-1 .col-md-8 .change {
+    float: right;
+    margin: 25px;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: #FFE;
+    background-color: #82a28a;
+}
+
+.truyen-main .block-1 .col-md-8 .status {
+    margin: 70px 10px 0px;
+}
+
+.truyen-main .block-1 .col-md-8 .status .status-content {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.truyen-main .block-1 .col-md-8 .status .status-content li {
+    list-style-type: none;
+}
+
+.truyen-main .block-1 .col-md-8 .status .status-content a {
+    text-decoration: none;
+    color: #2a8640;
+}
+
+.truyen-main .block-1 .rate i.fas {
+    font-size: 20px;
+}
+
+.truyen-main .block-2 .story-author {
+    border: 1px solid #d9e1e4;
+    background-color: #d9e1e4;
+    border: none;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.truyen-main .block-2 .story-author ul li {
+    list-style-type: none;
+    line-height: 30px;
+    border-bottom: 1px dashed #6b9876;
+    padding-top: 5px;
+}
+
+.truyen-main .block-2 .story-author ul li:hover a {
+    color: #6b9876;
+}
+
+.truyen-main .block-2 .story-author ul li::before {
+    content: '\f105';
+    font-family: "Font Awesome 5 Free";
+    padding-right: 15px;
+    font-weight: 900;
+}
+
+.truyen-main .block-2 .story-author ul li a {
+    text-decoration: none;
+    color: #3c3c3c;
+}
+
+.truyen-main .add-chap {
+    margin: 0 20px 30px;
+}
+
+.truyen-main .add-chap a {
+    text-decoration: none;
+    color: #2a8640;
+    font-weight: bold;
+}
+
+.truyen-main .chap {
+    margin: 20px;
+}
+
+.truyen-main .chap li {
+    list-style-type: none;
+    line-height: 40px;
+}
+
+.truyen-main .chap li::before {
+    content: '\f105';
+    font-family: "Font Awesome 5 Free";
+    padding-right: 15px;
+    font-weight: 900;
+}
+
+.truyen-main .chap li a {
+    text-decoration: none;
+    color: #636060;
+}
+
+.truyen-main .chap li:hover a {
+    color: #6b9876;
+}
+
+.truyen-header::after {
+    display: none;
+}
+
+.truyen-main .block-1 .info {
+    margin-top: 20px;
+}
+
+.truyen-main .block-1 .info p {
+    margin: 5px 0;
+}
+
+.truyen-main .block-1 .info p a {
+    color: initial;
+}
+
+.truyen-main .block-2 .items {
+    margin-top: 30px;
+}
+
+.truyen-main .block-2 .pagination {
+    justify-content: center;
+}
+
+.truyen-main .block-2 .pagination li a {
+    color: #6b9876;
+}
